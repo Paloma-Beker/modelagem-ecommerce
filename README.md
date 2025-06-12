@@ -44,10 +44,9 @@ O projeto tem como objetivo demonstrar conhecimento em:
 ## 🛠 Estrutura
 
 📁 Modelagem-ecommerce
-- Modelagem_ecommerce.png # Diagrama EER
 - Analise_modelo_ecommerce_paloma.pdf # Documento de análise técnica
 - README.md # Este arquivo
-
+- Modelagem_ecommerce.png # Diagrama EER
 
 ---
 
