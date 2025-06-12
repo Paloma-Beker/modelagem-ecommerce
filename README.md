@@ -22,8 +22,16 @@ O projeto tem como objetivo demonstrar conhecimento em:
 - Normalização e estruturação lógica de entidades
 - Relacionamentos N:1, 1:1 e N:M
 - Aplicação de boas práticas para bases relacionais
-- "A entidade cliente possui campos cpf e cnpj, mas apenas um deve ser preenchido de acordo com o tipo_cliente (PF ou PJ). Essa lógica é reforçada por validação na aplicação e/ou restrições no banco."
+
 ---
+
+🔒Regras de negócio destacadas
+
+- Clientes podem ser Pessoa Física (PF) ou Pessoa Jurídica (PJ), sendo obrigatório o preenchimento de CPF ou CNPJ, conforme o tipo.
+
+- Um pedido pode conter vários itens, e um produto pode ser vendido por vários vendedores ou fornecedores.
+
+- A modelagem considera a possibilidade de o mesmo produto estar em diferentes estoques e com quantidade disponível variável por local.
 
 ## 🧠 Tecnologias Utilizadas
 
